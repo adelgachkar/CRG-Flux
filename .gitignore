@@ -1,0 +1,14 @@
+# local archive duplicate of the vault
+CRG_Flux_Vault.zip
+
+# tool/IDE caches
+__pycache__/
+.freebuff/
+*.pyc
+
+# OS artifacts
+Thumbs.db
+.DS_Store
+
+# outer-level Obsidian workspace (duplicate of the vault-inner one)
+.obsidian/

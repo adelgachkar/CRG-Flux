@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this framework or software, please cite it as below."
+authors:
+  - family-names: "Gachkar"
+    given-names: "Adel"
+    affiliation: "Islamic Azad University, Urmia"
+    orcid: "https://orcid.org/0009-0006-7713-6004"
+title: "CRG-Flux: Curvature-Reactive-Geometric Flux — Cross-Scale Flexoelectric-to-Cosmological Framework (Complete Obsidian Vault)"
+version: 0.1.0
+date-released: 2026-09-28
+license: "MIT"
+repository-code: "https://github.com/adelgachkar/CRG-Flux"
+abstract: "The complete Obsidian vault of the CRG-Flux framework: a cross-scale bridge from local flexoelectric deformations in 2D lattices (graphene wrinkling, tip-effect enhancement, yield-threshold switching) to stationary-action closures in pre-Friedmann geometry. Nineteen canonical notes across seven sections with a Routh-Hurwitz attractor proof (bistability honestly registered), the family-register mapping to LIMEN/SPUMA, and a figure/asset provenance register. Model-level claims with executed numerical protocols; no empirical cosmological claim is made."
+keywords:
+  - CRG-Flux
+  - flexoelectricity
+  - graphene wrinkling
+  - pre-Friedmann closure
+  - B-fracture
+  - attractor proof
+  - obsidian vault

@@ -1,0 +1,54 @@
+{
+  "title": "CRG-Flux: Curvature-Reactive-Geometric Flux — Cross-Scale Flexoelectric-to-Cosmological Framework (Complete Obsidian Vault)",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "access_right": "open",
+  "license": "mit",
+  "creators": [
+    {
+      "name": "Gachkar, Adel",
+      "affiliation": "Islamic Azad University, Urmia",
+      "orcid": "0009-0006-7713-6004"
+    }
+  ],
+  "description": "<p>The complete Obsidian vault of the CRG-Flux framework: a cross-scale theoretical bridge linking local non-equilibrium flexoelectric deformations in 2D lattices (graphene wrinkling, tip-effect field enhancement, yield-threshold switching) to macroscopic stationary-action closures in pre-Friedmann cosmological geometry. Nineteen canonical notes across seven sections: core SDF-and-closure, experimental flexoelectricity, geometric singularity/tip, buffer layer and B-fracture, phase-space attractor (Routh-Hurwitz proof with honestly registered bistability), and foundational literature (four verified sources incl. the identified Takeuchi Les-Houches KPZ notes). Includes the family-register mapping to LIMEN-VACUI/SPUMA-VACUI (contact points, five registered tensions, collateralized open questions) and the figure/asset provenance register with honest-caption policy. Every note carries uniform frontmatter (created, author, license CC-BY-4.0, zenodo_section, status). Companion repositories: LIMEN-VACUI (protocol home), SPUMA-VACUI, Emergence-SDF-Vault, CADENCE-SDF. Model-level claims with executed numerical protocols; no empirical cosmological claim is made.</p>",
+  "keywords": [
+    "CRG-Flux",
+    "flexoelectricity",
+    "graphene wrinkling",
+    "pre-Friedmann closure",
+    "B-fracture",
+    "attractor proof",
+    "obsidian vault",
+    "SDF family"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/adelgachkar/CRG-Flux",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/adelgachkar/LIMEN-VACUI",
+      "relation": "isVariantFormOf",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/adelgachkar/SPUMA-VACUI",
+      "relation": "isVariantFormOf",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/adelgachkar/Emergence-SDF-Vault",
+      "relation": "isVariantFormOf",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/adelgachkar/CADENCE-SDF",
+      "relation": "isVariantFormOf",
+      "scheme": "url"
+    }
+  ],
+  "communities": [],
+  "grants": []
+}
