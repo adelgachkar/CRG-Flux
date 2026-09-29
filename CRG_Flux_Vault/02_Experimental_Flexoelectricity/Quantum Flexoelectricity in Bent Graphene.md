@@ -1,7 +1,7 @@
 ---
 title: "Quantum Flexoelectricity in Bent Graphene and Curvature Coupling"
 created: 2026-09-25
-updated: 2026-09-28
+updated: 2026-09-29
 author: "Adel Gachkar"
 license: "CC-BY-4.0"
 zenodo_section: "Experimental-Flexoelectricity"
@@ -121,7 +121,36 @@ The corrugated flexoelectric graphene sheet provides the explicit 2D micro-mecha
 
 ---
 
-## 6. Mathematical Cross-References & Vault Links
+## 6. Measured / Predicted Register (E4)
+
+> **Epistemic status:** this note mixes three kinds of quantities. The register below
+classifies **every** load-bearing number in §§2–5 as (M) measured, (L) literature-standard,
+or (P) predicted by this framework. **No CRG-specific parameter (κ_c, ξ_flexo, κ_yield, γ_nl)
+has been measured**; the experimental anchor validates the *existence and curvature
+dominance* of the effect, not this framework's parameterization.
+
+| # | Quantity / Claim | Value | Status | Source / Protocol |
+|---|---|---|---|---|
+| 1 | Flexoelectric polarization at sharp wrinkles | local electrical-potential shift at the sharpest graphene wrinkles (graphene on MoS₂, naturally formed ridges) | **(M) measured** | Iyengar et al., *Adv. Mater.* **2026**, e18224, DOI: [10.1002/adma.202518224](https://doi.org/10.1002/adma.202518224) |
+| 2 | Mechanism = quantum **orbital** flexoelectricity | charge redistribution via orbital-overlap change around wrinkle ridges, matching atomic-scale calculations | **(M) measured** (+ atomic-scale theory in-source) | same ref; preprint [arXiv:2503.21996](https://arxiv.org/abs/2503.21996) |
+| 3 | Curvature dominance over amplitude | wrinkle **sharpness**, not height, controls the electrical response | **(M) measured** | same ref (Rice Univ. statement, Iyengar quote) |
+| 4 | Enhancement magnitude | polarization ≈ **10⁵–10⁷×** larger flexoelectric systems | **(M) measured — order-of-magnitude estimate** (authors' own caveat: smallest bends not atom-resolvable; key quantities model-assisted) | same ref; scope caveat registered |
+| 5 | 2D elastic constants: Y ≈ 340 N/m, ν ≈ 0.16 | graphene stiffness tensor input (§2) | **(L) literature-standard** | Y: Lee et al., *Science* **321**, 385 (2008); ν: graphene literature range |
+| 6 | Bare bending rigidity D₀ ≈ 1.2–1.6 eV | uncharged-graphene D₀ spread (§2) | **(L) literature range** (theory + experiment spread, not this experiment) | graphene bending-rigidity literature |
+| 7 | Curvature threshold κ_c ≡ √(σ_c/D₀) defining the regime shift | §4 normalization | **(P) predicted [model]** — not measured in the experimental normalization | this framework, §4.2 |
+| 8 | Three-regime ladder: linear acoustic → wrinkling → Yield Shell | non-monotonic response across κ scales | **(P) predicted [model]** — qualitative support only (row 3 measures curvature dominance, not the ladder) | this framework, §4 |
+| 9 | Wrinkle wavelength λ ∝ (D₀/σ_ext)^{1/4} with flexo correction [1 − ξ_flexo(κ/κ_c)²]^{−1/2} | §4.2 scaling | **(P) standard FvK theory + [model] correction** (the ξ_flexo factor is this framework's) | classic wrinkling theory; correction: this framework |
+| 10 | Yield activation (Stone–Wales / 5-7 loops) at κ_yield ~ √(σ_y/D₀) | bond reconstruction channel | **(P) predicted [model]** — defect activation under strain is literature-known; the σ_y/κ_c threshold switch is this framework's | this framework, §4.3 |
+| 11 | ρ_bound ↔ crack pole-density mapping (B-Fracture) | bound-charge/crack-boundary correspondence | **(P) structural analogy** — explicitly analogy, not derivation | this framework, §5 |
+| 12 | Tip-effect negative feedback (E-field concentration prevents singular collapse) | electrostatic softening feedback | **(P) predicted [model]** | this framework, §5 |
+
+**Summary line:** rows 1–4 are the experimental anchor (one paper, one system);
+rows 5–6 are standard inputs; rows 7–12 are this framework's [model] content.
+A future falsification test is explicit: measure a *calibrated* polarization vs. κ
+curve on wrinkle ensembles and check whether the CRG threshold normalization
+(row 7) or any competitor fit (plain power law) describes it better.
+
+## 7. Mathematical Cross-References & Vault Links
 
 * [[Tip Effect and Local Curvature Tensor]]: Formulation of the geometric stress enhancement tensor $\mathcal{K}_{ij}$ and curvature singularities.
 * [[Yield Threshold]]: Formal derivation of the critical threshold switch $\sigma_y / \kappa_c$ and plastic activation barriers.

@@ -34,7 +34,7 @@ tags: [Index, Family-Mapping, LIMEN, SPUMA, Register, Tensions]
 
 | Pillar | Core content | Registered quantities |
 |---|---|---|
-| **I — Graphene flexoelectric wrinkling** | C₆/D₆h symmetry breaking by out-of-plane deflection; strain-gradient polarization; pseudo-gauge A_pseudo ∝ ∇²w | P = μ:∇ε; ρ_flexo = −∇·P |
+| **I — Graphene flexoelectric wrinkling** | C₆/D₆h symmetry breaking by out-of-plane deflection; strain-gradient polarization; pseudo-gauge A_pseudo ∝ ∇²w | P = μ:∇ε; ρ_flexo = −∇·P; **experimental anchor (M):** quantum orbital flexoelectricity at graphene wrinkles — effect existence + curvature (sharpness) dominance measured, enhancement ~10⁵–10⁷× (Iyengar et al., *Adv. Mater.* e18224, 2026, DOI 10.1002/adma.202518224; theory origin Kalinin & Meunier, PRB 77, 033403, 2008). All CRG-specific parameters (κ_c, ξ_flexo, κ_yield, γ_nl) remain `[model]` — full 12-row classification in the note's Measured/Predicted Register (§6) |
 | **II — Crack-in-magnet analogy → pre-Friedmann closure** | ∇·B = 0 forbids monopoles; cleavage makes σ_m = M·n̂ pairs; extended action stationary at boundary: δS_ext = 0 | σ_m = −⟦M⟧·n̂; interface charge σ = −⟦Ψ⟧·n̂ with exact dipole conservation ∮σ + ∫ρ = 0 |
 | **III — Yield-threshold switching** | dynamic discriminant between elastic storage / active buffer / topological closure | Θ_yield = σ_y/κ_c − Γ_eff(Φ̇); sign convention: > 0 elastic, ≈ 0 buffer, < 0 closed |
 | **IV — Nonlinear regime shift (solitonic localization)** | Hookean breakdown at κ_local ~ A/λ² ≥ κ_c; quartic stabilization | F = ½Dκ² + ¼βκ⁴ − μ₁κP − ½χ⁻¹P² + λP²κ² |
