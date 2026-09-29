@@ -87,16 +87,32 @@ By the Intermediate Value Theorem, there exists at least one root $x^* \in (0, 1
 The derivative of $g(x)$ is:
 $$g'(x) = \gamma_1 \alpha_2 \beta_2 \frac{\alpha_2 - \frac{\gamma_2 \mu}{\lambda} x^2}{\left(\alpha_2 + \frac{\gamma_2 \mu}{\lambda} x^2\right)^2}$$
 - **Sufficient condition (proved):** If $\frac{\gamma_2 \mu}{\lambda} \le \alpha_2$, then $g'(x) \ge 0$ on $[0, 1]$, so $g(x)$ is non-decreasing. Since $f(x)$ is strictly decreasing, the difference $H(x) = f(x) - g(x)$ is strictly decreasing, guaranteeing **strict uniqueness** of $x^*$.
-- **Beyond the sufficient condition (E4 correction, 2026-09-28):** the earlier claim
+- **Beyond the sufficient condition (E4 correction, 2026-09-28; refined by the W8
+  cross-vault battery, LIMEN `tools/limen_w8_crg_branch_register.py`):** the earlier claim
   that uniqueness holds unconditionally was **numerically refuted** by the vault's own
   verification battery (100,000 log-uniform parameter draws across four decades).
   After clearing denominators the equilibrium equation is a **quartic** in $x$ (not a
-  cubic), and in ≈2% of draws it carries **three** positive roots in $(0,1)$ — e.g.
-  $(\alpha_1, \alpha_2, \beta_2, \gamma_1, \gamma_2, \lambda, \mu) =
+  cubic),
+  $a_1 K x^4 + a_1(\alpha_2 - K)x^2 + \gamma_1\alpha_2\beta_2 x - a_1\alpha_2 = 0$ with
+  $K = \gamma_2\mu/\lambda$ (no cubic term; Descartes sign pattern $(-,0,+,-,+)$ when
+  $K > \alpha_2$). W8's machine-precision re-solve **reproduces the recorded exemplar
+  exactly**: $(\alpha_1, \alpha_2, \beta_2, \gamma_1, \gamma_2, \lambda, \mu) =
   (0.0252, 0.042, 40.85, 0.22, 0.215, 0.0222, 15.27)$ gives
-  $x^* \approx \{0.003,\ 0.099,\ 0.945\}$. In those draws **bistability** is real:
-  on average two of the equilibria are linearly stable, so "unique attractor" fails
-  strictly outside the sufficient condition.
+  $x^* = \{0.0029\ (\text{stable}),\ 0.0994\ (\text{saddle}),\ 0.9449\ (\text{stable})\}$.
+  Refined frequencies over 20,000 fresh draws [exact]: multi-root in **3.02%** of
+  outside-condition draws; **bistability in 0.37%** overall (74/20000; 25% of multi-root
+  draws). The earlier "on average two of the equilibria are linearly stable" phrasing is
+  itself E4-refuted: the mean is **1.25** stable equilibria per multi-root draw —
+  bistability is real but the minority case, so "unique attractor" fails strictly
+  outside the sufficient condition, and only in ~4% of outside-condition parameter
+  space.
+- **Cross-vault reading (W8, 2026-09-28):** fed to the LIMEN unified register through a
+  density-preserving seed map [model], the two stable branches of this exemplar **split
+  the register's two exclusive exits** — the low-$x^*$ (melted-core) branch is dominantly
+  read by the SPUMA freeze-out exit, the high-$x^*$ (frozen-core) branch by the LIMEN
+  registration exit (0/9 calibration flips) [measured]. CRG bistability thus maps onto
+  the family register's silence-vs-registration duality: see
+  [[Family-Register-Mapping]] §5, row OQ-C4-2, and LIMEN Two-Realm-Register row W8.
 - **What survives unconditionally (same battery, zero violations):** the
   Routh–Hurwitz conditions $a_1, a_2, a_3, \Delta_2 > 0$ and $\det J(P^*) < 0$ hold
   at **every** linearly stable equilibrium — each stable branch is a genuine bounded
